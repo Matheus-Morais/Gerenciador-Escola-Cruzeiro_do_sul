@@ -1,10 +1,37 @@
-
-<h2>Lista de Funcionarios</h2>
-<thead></thead>
-<tbody>
-  <tr *ngFor="let funcionario of funcionarios">
-    <td>{{funcionario.nome}}</td>
-    <td>{{funcionario.telefone}}</td>
-    <td>{{funcionario.endereco}}</td>
-    <td>{{funcionario.CEP}}</td>
-</tbody>
+<div class="row">
+  <div class="col-10">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col" width="80">ID</th>
+          <th scope="col">Nome</th>
+          <th scope="col" >Telefone</th>
+          <th scope="col" >Endereço</th>
+          <th scope="col" width="100">CEP</th>
+          <th scope="col" width="50">Tipo de Funcionario</th>
+          <th scope="col"> Excluir</th>
+          <th scope="col">Editar</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let funcionario of funcionarios">
+            <td>{{funcionario.id}}</td>
+            <td>{{funcionario.nome}}</td>
+            <td>{{funcionario.telefone}}</td>
+            <td>{{funcionario.endereco}}</td>
+            <td>{{funcionario.CEP}}</td>
+            <td>{{funcionario.TipoFuncionario}}</td>
+            <td>  
+              <button class="btn btn-danger btn-sm" (click)="excluir(funcionario)">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success btn-sm" (click)="editar(funcionario)">
+              <i class="fa fa-pencil-square-o"></i>
+              </button>
+            </td>
+        </tbody>
+    </table>
+  </div>
+</div>
