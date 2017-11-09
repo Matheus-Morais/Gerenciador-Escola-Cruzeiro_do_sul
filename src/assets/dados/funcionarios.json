@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "Maria da Cruz",
+        "telefone": "63-9232-3232",
+        "endereco": " Rua 3 , lote 05",
+        "CEP": "77-811200",
+        "Tipo Funcionario": "Professor"
+    },
+    {
+        "nome": "Pedro Alves",
+        "telefone": "63-2222-2222",
+        "endereco": " Quadra 5 , lote 10",
+        "CEP": "22-222222",
+        "Tipo Funcionario": "Admistrador"
+    },
+    {
+        "nome": "José Ferreira",
+        "telefone": "63-3333-3333",
+        "endereco": " Quadra 50 , lote 100",
+        "CEP": "77-444444",
+        "Tipo Funcionario": "Administrador"
+    },
+    {
+        "nome": "Julio da Cruz",
+        "telefone": "63-5888-8888",
+        "endereco": " Quadra 22 , lote 90",
+        "CEP": "77-811200",
+        "Tipo Funcionario": "Professor"
+    },
+    {
+        "nome": "João Paulo da Cruz",
+        "telefone": "63-0000-0000",
+        "endereco": " Rua 18, lote 2",
+        "CEP": "77-000000",
+        "Tipo Funcionario": "Professor"
+    }
+]
